@@ -1,6 +1,6 @@
 *{
-    color: white;
-    background-color:rgb(173, 9, 5) ;
+    color: rgb(59, 3, 3);
+    background-color: forestgreen ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1{
@@ -18,7 +18,7 @@ h1{
 .flexone{
     height: 250px;
     width: 250px;
-    border: double rgb(0, 0, 0) 10px;
+    border: rgb(0, 0, 0) 10px;
     justify-content: space-evenly;
     flex-grow: 2;
     flex-shrink: 1;
@@ -26,7 +26,7 @@ h1{
 .flextwo{
     height: 250px;
     width: 250px;
-    border: double rgb(0, 0, 0) 10px;
+    border: rgb(0, 0, 0) 10px;
     text-align: center;
     justify-content: space-between;
     flex-grow: 2;
@@ -39,6 +39,7 @@ h1{
     justify-content:space-evenly;
     flex-grow: 2;
     flex-shrink: 1;
+
 }
 .container2{
     display: flex;
@@ -50,7 +51,7 @@ h1{
     flex-shrink: 1;
 }
 .flexfour{
-    border: double rgb(0, 0, 0) 10px;
+    border: rgb(0, 0, 0) 10px;
     justify-content:space-evenly;
     text-align: center;
     flex-grow: 2;
