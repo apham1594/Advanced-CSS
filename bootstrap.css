@@ -1,0 +1,30 @@
+.col-md-2{
+    border: solid blue 15px;
+    height: 250px;
+    width: 420px;
+}
+.col-md-8{
+    border: solid blue 15px;
+    height: 250px;
+    width: 420px;
+}
+.h2{
+    font-size: 100px;
+    text-align: center;
+}
+.flexbox-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+.flexbox-item{
+    height: 250px;
+    width: 420px;
+    border: double rgb(red, green, blue) 10px;
+}
+.flextwo{
+    flex-grow:2;
+    flex-shrink:3;
+    
+}
