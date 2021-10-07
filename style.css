@@ -19,7 +19,7 @@ h1{
 .flexone{
     height: 250px;
     width: 250px;
-    border: rgb(0, 0, 0) 10px;
+    border: double rgb(0, 0, 0) 10px;
     justify-content: space-evenly;
     flex-grow: 2;
     flex-shrink: 1;
@@ -27,7 +27,7 @@ h1{
 .flextwo{
     height: 250px;
     width: 250px;
-    border: rgb(0, 0, 0) 10px;
+    border:double rgb(0, 0, 0) 10px;
     text-align: center;
     justify-content: space-between;
     flex-grow: 2;
