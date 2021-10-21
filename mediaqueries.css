@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  
+  body {
+    font: 1.2em/1.2 Helvetica, aria, sans-serif;
+    margin: 0 3%;
+    
+  }
+  
+  h1 {
+    font-size: 1.8em;
+    margin: .9em 0 0 0;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin: 1.5em 0 0 0;
+  }
+  
+  img {
+    max-width: 100%;
+    min-width: 100%; 
+  }
+/* filter (effect) params HERE ðŸ‘‡ðŸ¾*/ 
+ 
+  #one {
+    filter: blur(5px);
+  }
+  #two {
+    filter: brightness(200%);
+  }
+  #three {
+    filter: saturate(25%);
+  }
+  #four {
+    filter: invert(90%);
+  }
+  #five {
+    filter: contrast(2);
+  }
+  #six {
+    filter: drop-shadow(blue 20px 15px);
+  }
+  figure {
+    border: 5px black solid; 
+    border-radius: 5px;
+    color: white;
+    margin: 0 0 25px 0;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  figcaption {
+    font-size: .8em;
+  }
+  
+/* Look up a media query property */
+
+@media screen and (max-width: 740px) and (min-width: 340px){
+  body {
+    background-color: blue;
+    background-image: url(images/tianshu-liu-SBK40fdKbAg-unsplash.jpg);
+    background-size: contain;
+    background-attachment: scroll;
+    background-origin: border-box;
+    margin-right: 25px 10%;
+  }
+  figure {
+    float: left;
+    width: 45%;
+    margin-right: 20px 10%;
+  }
+}
+
+@media screen and (max-width: 1039px) and (min-width: 741 px){
+  body {
+    background-color: antiquewhite;
+    background-image: url(images/daniel-58TJ5U21byY-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    margin-right: 25px 10%;
+  }
+}
+  
+}
+ 
+
+
+
+}

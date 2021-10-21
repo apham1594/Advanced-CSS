@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Selector </title>
+</head>
+<style>
+    h1{
+        color:red
+    }
+    h4, p{
+        color:violet
+    }
+    #world{
+        color: blueviolet;
+    }
+    .section1, h1{
+        color:aqua
+    }
+    .section2 > ul > li{
+        color: pink;
+        font-size: small;
+        list-style-type: armenian;
+        transition-property: color, transform;
+        transition-duration: 4s;
+    }
+    p::first-letter{
+        color: fuchsia;
+        font-size: large;
+
+    }
+</style>
+<body>
+     <div class="section1">
+        <h1> Hello World!</h1>
+        <p>This is the English Language</p>
+    </div>
+    <h1>Hola Mundo!</h1>
+    <p>This is the Spanish Language.</p>
+    <!--make style changes 5 to this div's <p>
+            include a transform-->
+    <!--make style changes to the <li> in this div
+                make seperate style changes to the 
+            'spanish' class <li>-->
+    <div class="section2">
+        <h1>Bonjour le Monde!</h1>
+        <p>This is the French Language.</p>
+        <ul>
+            <li>4 Languages of the World</li>
+            <li>English</li>
+            <li class="Spanish">Spanish</li>
+            <li>French</li>
+            <li>Arabic</li>
+        </ul>
+    </div>
+    <!--make style changes to this div's <p> tag and
+        <ul> tag. Include an animation on the <li>-->
+    <div class="section3">
+        <h1>مرحبا بالعالم</h1>
+        <p>This is the Arabic Language. </p>
+        <ul>
+            <li>4 Languages of the World</li>
+            <li>English</li>
+            <li> Spanish</li>
+            <li>French</li>
+            <li>Arabic</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
