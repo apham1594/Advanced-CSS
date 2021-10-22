@@ -122,6 +122,7 @@ html {
     label {
         display: block;
   }
+}
   /* Breakpoint #2 */
   @media screen and (max-width: 1039px) and (min-width: 340 px){
     body {
